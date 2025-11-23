@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <title>WonDieWorld 0.1-side - 메인 마을</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="screen screen-plaza">
+  <div class="hud">
+    <div class="hud-left">
+      <span class="hud-title">WonDieWorld <span class="version">v0.1-side</span></span>
+      <span class="hud-nickname" id="hudNickname"></span>
+    </div>
+    <div class="hud-right">
+      <button id="btnBack">로그아웃</button>
+    </div>
+  </div>
+
+  <div class="game-wrapper">
+    <canvas id="gameCanvas" width="960" height="540"></canvas>
+    <div class="help-box">
+      <p>
+        ← → 또는 A / D : 좌우 이동<br />
+        ↑ 또는 W 또는 Space : 점프<br />
+        0.1-side 버전: <strong>메이플 느낌 사이드뷰 이동 테스트 전용</strong>
+      </p>
+    </div>
+  </div>
+
+  <script src="js/sprite.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
